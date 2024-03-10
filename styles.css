@@ -51,7 +51,7 @@ body {
     margin-bottom: 10px;
 }
 
-button {
+.hero button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 30px;
@@ -132,12 +132,39 @@ button {
 .signup {
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 50px 200px;
-    padding: 10px 40px;
+    margin: 100px 200px;
+    padding: 25px 75px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
+
+.action {
+    display: flex;
+    flex-direction: column;    
+}
+
+.action :nth-child(1) {
+    margin-bottom: 2px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.action :nth-child(2) {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: 700;
+    border: solid 2px white;
+    border-radius: 8px;
+}
+
 
 .footer {
     color: #F9FAF8;
