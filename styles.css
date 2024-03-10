@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: roboto, sans-serif;
 }
 
 .header {
@@ -35,6 +36,8 @@ body {
 
 .hero-text {
     flex-direction: column;
+    flex: 1;
+    max-width: 500px;
 }
 
 .hero-main {
@@ -60,12 +63,13 @@ body {
     border-radius: 8px;
 }
 
-.img {
-    background-color: #E5E7EB;
+img {
     margin-bottom: 10px;
     margin-left: 20px;
-    padding: 70px 220px;
-    
+    width: 350px;
+    max-width: 700px;
+    flex: 1;
+    border-radius: 4px;
 }
 
 .info {
@@ -138,6 +142,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    border-radius: 8px;
 }
 
 .action {
